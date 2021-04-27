@@ -22,8 +22,8 @@ class Form
 
 		std::string const &getName() const;
 		bool getIsSigned() const;
-		int const getSignGrade() const;
-		int const getExecGrade() const;
+		int getSignGrade() const;
+		int getExecGrade() const;
 		class GradeTooHighException: public std::exception
 		{
 			public:
