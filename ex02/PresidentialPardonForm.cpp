@@ -2,6 +2,11 @@
 #include <fstream>
 #include <iostream>
 
+PresidentialPardonForm::PresidentialPardonForm():Form()
+{
+
+}
+
 PresidentialPardonForm::PresidentialPardonForm(std::string const &target):Form("presidential pardon", 25, 5),target(target)
 {
 

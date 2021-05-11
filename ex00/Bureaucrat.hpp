@@ -10,6 +10,7 @@ class Bureaucrat
 	private:
 		std::string const name;
 		int grade;
+		Bureaucrat();
 	public:
 		Bureaucrat(const std::string name, int grade);
 		Bureaucrat(Bureaucrat const &other);

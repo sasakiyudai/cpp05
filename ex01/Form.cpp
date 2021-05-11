@@ -1,5 +1,10 @@
 #include "Form.hpp"
 
+Form::Form():signGrade(1),execGrade(1)
+{
+
+}
+
 Form::Form(std::string const &name, int const signGrade, int const execGrade):name(name),isSigned(false),signGrade(signGrade),execGrade(execGrade)
 {
 	if (signGrade < 1 || execGrade < 1)

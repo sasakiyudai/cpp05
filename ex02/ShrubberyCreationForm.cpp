@@ -13,6 +13,12 @@ std::string ShrubberyCreationForm::trees =
 	"       ||      \n"
 	"       ||      \n";
 
+
+ShrubberyCreationForm::ShrubberyCreationForm():Form()
+{
+
+}
+
 ShrubberyCreationForm::ShrubberyCreationForm(std::string const &target):Form("shrubbery creation", 145, 137),target(target)
 {
 

@@ -2,6 +2,11 @@
 #include <fstream>
 #include <iostream>
 
+RobotomyRequestForm::RobotomyRequestForm():Form()
+{
+	
+}
+
 RobotomyRequestForm::RobotomyRequestForm(std::string const &target):Form("robotomy request", 72, 45),target(target)
 {
 

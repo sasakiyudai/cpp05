@@ -14,6 +14,8 @@ class Form
 		bool isSigned;
 		int const signGrade;
 		int const execGrade;
+	protected:
+		Form();
 	public:
 		Form(std::string const &name, int const signGarde, int const execGrade);
 		Form(Form const &other);
